@@ -1,4 +1,3 @@
-
 function vizibilitate() {
 
     const schimb = document.getElementById('ham');
