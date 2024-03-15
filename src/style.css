@@ -1,0 +1,17 @@
+#highlighted-text {
+    background-image: linear-gradient(to right, rgba(255, 195, 0, 0.8) 0%, rgba(255, 195, 0, 0.8) 100%);
+    background-position: 0 0;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    animation: highlight 1.5s linear forwards; /* Animatie CSS */
+  }
+  
+  @keyframes highlight {
+    0% {
+      background-size: 0% 100%;
+    }
+    100% {
+      background-size: 100% 100%;
+    }
+  }
+  

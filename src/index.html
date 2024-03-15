@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet"/>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+    </style>
+  </head>
+  <body class="bg-black font-Inter">
+    <!--Header-->
+    <div class="mt-44 gap-6 w-screen flex flex-col  items-center">
+      <div
+        class="size-40 rounded-full bg-cover flex"
+        style="background-image: url('eu.jpg')"
+      ></div>
+      <h3 class="font-Inter text-3xl text-white">Istrate Nicolae-Vlad</h3>
+      <div class="flex rounded-full border border-white">
+        <div class="flex items-center px-4 py-2 gap-1">
+          <span class="flex size-6 justify-center align-center items-center">
+            <span class="relative flex h-3 w-3">
+                <span class="animate-ping absolute  h-full w-full rounded-full bg-green-500 opacity-75"></span>
+                <span class="relative  rounded-full h-3 w-3 bg-green-500"></span>
+              </span>
+          </span>
+          <span class="flex font-medium font-Inter">
+            <p class="text-white">Available for work</p>
+          </span>
+        </div>
+      </div>
+      <div class="w-screen">
+        <div
+          class="flex flex-col sm:flex-row sm:justify-center font-Inter font-medium text-gray-500"
+        >
+          <div class="flex px-4 py-2 gap-2 items-center">
+            <svg
+              class="size-7 fill-gray-500"
+              viewBox="0 0 1024 1024"
+              class="icon"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M877.685565 727.913127l-0.584863-0.365539a32.898541 32.898541 0 0 1-8.041866-46.423497 411.816631 411.816631 0 1 0-141.829267 145.777092c14.621574-8.992268 33.62962-5.117551 43.645398 8.772944l0.146216 0.073108a30.412874 30.412874 0 0 1-7.968758 43.206751l-6.141061 4.020933a475.201154 475.201154 0 1 1 163.615412-164.419599 29.974227 29.974227 0 0 1-42.841211 9.357807z m-537.342843-398.584106c7.164571-7.091463 24.71046-9.650239 33.26408 0 10.600641 11.185504 7.164571 29.462472 0 37.138798l-110.612207 107.468569L370.901811 576.14119c7.164571 7.091463 8.114974 27.342343 0 35.384209-9.796455 9.723347-29.828011 8.188081-36.480827 1.535265L208.309909 487.388236a18.423183 18.423183 0 0 1 0-25.953294l132.032813-132.032813z m343.314556 0l132.032813 132.032813a18.423183 18.423183 0 0 1 0 25.953294L689.652124 613.133772c-6.652816 6.579708-25.587754 10.746857-36.553935 0-10.30821-10.235102-7.091463-31.290168 0-38.381632l108.345863-100.669537-111.855041-108.638294c-7.164571-7.676326-9.504023-26.611265 0-36.04218 9.284699-9.138484 26.903696-7.091463 34.068267 0z m-135.54199-26.318833c3.582286-9.504023 21.347498-15.498868 32.679217-11.258612 10.819965 4.020933 17.180349 19.008046 14.256035 28.512069l-119.896906 329.716493c-3.509178 9.504023-20.616419 13.305632-30.193551 9.723347-10.161994-3.509178-21.201282-17.545889-17.545888-26.976804l120.627985-329.716493z"
+              />
+            </svg>
+            <p class="">Fullstack Web Developer</p>
+          </div>
+          <div class="flex items-center px-4 py-2 gap-2">
+            <svg
+              class="size-7 fill-gray-500"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z"
+                stroke="#000000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <p>Bucharest</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--About-->
+    <div
+      class="flex flex-wrap flex-col w-screen gap-y-20 items-center justify-center py-20 px-16"
+    >
+      <div class="flex justify-center flex-col lg:flex-row w-880">
+        <div class="flex w-1/4">
+          <p class="text-white font-semibold text-2xl">About</p>
+        </div>
+        <div
+          class="flex flex-col mt-12 w-1/3 sm:w-7/12 lg:mt-0 gap-4 lg:w-3/4 text-gray-500 text-xl"
+        >
+          <div class="flex">
+            <p class="">
+              <span class="pl-4">Hello!</span> I'm Vlad, <span class="text-black font-medium" id="highlighted-text">a final year Electrical
+              Engineering student </span> with a deep passion for IT and electricity. My
+              educational background has equipped me with a strong foundation in
+              these fields, and I'm eager to find the perfect fit and make an
+              impact.
+            </p>
+          </div>
+          <div>
+            <p>
+                <span class="pl-4"></span><span class="text-black font-medium" id="highlighted-text"> I'm  seeking a dynamic and inspiring work
+              environment to kick-start my career.</span> I enjoy working on projects
+              that require creative thinking and problem-solving skills. <span class="text-black font-medium" id="highlighted-text">I
+              thrive when working in a team, as I am a sociable and
+              collaborative person.</span> My goal is to contribute my fresh
+              perspectives and dedication to a dynamic organization that values
+              continuous learning and growth.
+            </p>
+          </div>
+          <div>
+            <p>
+              <span class="pl-4">If</span> you are looking for a driven and
+              ambitious individual, <span class="text-black font-medium" id="highlighted-text">I would be happy to connect</span> and discuss
+              potential collaborations!
+            </p>
+          </div>
+        </div>
+      </div>
+<!--Projects-->
+      <div  class="flex justify-center flex-col lg:flex-row w-880">
+        <div class="flex w-1/4">
+          <p class="text-white font-semibold text-2xl">Projects</p>
+        </div>
+        <div class="flex w-3/4 card mt-12 lg:mt-0 ">
+<!--Card-->
+          <a href="#card"><!--De pus link-ul cand va fi gata si de scos id-ul din div lin 128-->
+          <div class="relative flex flex-col ">
+            <div
+              class="flex items-center justify-center w-96 h-56 bg-white rounded-t-xl relative "
+            >
+              <p class="absolute text-3xl font-bold">Coming Soon...</p>
+            </div>
+
+            <div
+              class="relative flex flex-col justify-center w-96 h-36 bg-neutral-900 rounded-b-xl border border-transparent hover:border-white transition border-opacity-100 ease-in duration-200  " 
+            >
+              <p class="pl-4 text-white text-xl">Flower Shop</p>
+              <p class="pl-4 pt-2 text-gray-500">E-commerce Flower Shop</p>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+
+      <div class="flex justify-center flex-col lg:flex-row w-880">
+        <div class="flex w-1/4">
+          <p class="text-white font-semibold text-2xl">Experience</p>
+        </div>
+        <div class="flex flex-col gap-4 w-3/4 mt-12">
+<!--Experience 1-->
+          <div class="flex flex-col gap-4 w-656 bg-cardbg p-4 rounded-xl">
+            <div class="sus">
+                <div class="text-white">
+                    <p>Internship</p>
+                </div>
+                <div class="text-white">
+                    <p>Eurosic SA, Bucharest</p>
+                </div>
+                <div class="text-white">
+                    <p>June 2023 - August 2023</p>
+                </div>
+            </div>
+            <div class="jos text-gray-500">
+                <div>Participated in agile development processes, ensuring timely delivery of design assets.</div>
+                <div>Conducted user research and translated findings into design improvements.</div>
+                <div> Collaborated with cross-functional teams to create and implement innovative design solutions.</div>
+            </div>
+        </div>
+<!--Experience 2-->
+
+<div class="flex flex-col gap-4 w-656 bg-cardbg p-4 rounded-xl">
+    <div class="sus">
+        <div class="text-white">
+            <p>Internship</p>
+        </div>
+        <div class="text-white">
+            <p>Eurosic SA, Bucharest</p>
+        </div>
+        <div class="text-white">
+            <p>June 2023 - August 2023</p>
+        </div>
+    </div>
+    <div class="jos text-gray-500">
+        <div>Participated in agile development processes, ensuring timely delivery of design assets.</div>
+        <div>Conducted user research and translated findings into design improvements.</div>
+        <div> Collaborated with cross-functional teams to create and implement innovative design solutions.</div>
+    </div>
+</div>
+
+        </div>
+      </div>
+
+      <div class="flex justify-center w-880">
+        <div class="flex w-1/4">
+          <p class="text-white">About</p>
+        </div>
+        <div class="flex w-3/4">
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel eum
+            beatae, laboriosam et veritatis hic provident voluptate debitis
+            quasi consequatur ea vero quidem atque ratione natus ad assumenda
+            corrupti soluta quas possimus esse, at quia? Nesciunt aspernatur ab
+            iure debitis enim obcaecati eveniet maxime incidunt fuga vero
+            consectetur quaerat neque reprehenderit quae aliquam, sapiente dolor
+            commodi est, autem odit doloribus explicabo recusandae dolorem?
+            Repudiandae dignissimos distinctio consectetur corporis architecto
+            in.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-center w-880">
+        <div class="flex w-1/4">
+          <p class="text-white">About</p>
+        </div>
+        <div class="flex w-3/4">
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel eum
+            beatae, laboriosam et veritatis hic provident voluptate debitis
+            quasi consequatur ea vero quidem atque ratione natus ad assumenda
+            corrupti soluta quas possimus esse, at quia? Nesciunt aspernatur ab
+            iure debitis enim obcaecati eveniet maxime incidunt fuga vero
+            consectetur quaerat neque reprehenderit quae aliquam, sapiente dolor
+            commodi est, autem odit doloribus explicabo recusandae dolorem?
+            Repudiandae dignissimos distinctio consectetur corporis architecto
+            in.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex justify-center w-880">
+        <div class="flex w-1/4">
+          <p class="text-white">About</p>
+        </div>
+        <div class="flex w-3/4">
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel eum
+            beatae, laboriosam et veritatis hic provident voluptate debitis
+            quasi consequatur ea vero quidem atque ratione natus ad assumenda
+            corrupti soluta quas possimus esse, at quia? Nesciunt aspernatur ab
+            iure debitis enim obcaecati eveniet maxime incidunt fuga vero
+            consectetur quaerat neque reprehenderit quae aliquam, sapiente dolor
+            commodi est, autem odit doloribus explicabo recusandae dolorem?
+            Repudiandae dignissimos distinctio consectetur corporis architecto
+            in.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
