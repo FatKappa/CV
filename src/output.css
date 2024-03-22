@@ -568,10 +568,6 @@ video {
   display: flex;
 }
 
-.hidden {
-  display: none;
-}
-
 .size-40 {
   width: 10rem;
   height: 10rem;
@@ -684,10 +680,6 @@ video {
 
 .gap-y-20 {
   row-gap: 5rem;
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }
 
 .overflow-x-hidden {
