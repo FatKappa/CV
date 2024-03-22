@@ -552,6 +552,10 @@ video {
   position: relative;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -560,16 +564,8 @@ video {
   margin-top: 11rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .flex {
@@ -692,12 +688,6 @@ video {
 
 .gap-y-20 {
   row-gap: 5rem;
-}
-
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden {
