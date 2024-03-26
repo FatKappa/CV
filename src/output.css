@@ -564,6 +564,10 @@ video {
   margin-top: 11rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -635,6 +639,31 @@ video {
   width: 100vw;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-dvw {
+  width: 100dvw;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
 @keyframes ping {
   75%, 100% {
     transform: scale(2);
@@ -646,8 +675,16 @@ video {
   animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .flex-wrap {
@@ -680,10 +717,6 @@ video {
 
 .gap-y-20 {
   row-gap: 5rem;
-}
-
-.overflow-x-hidden {
-  overflow-x: hidden;
 }
 
 .rounded-full {
@@ -875,9 +908,23 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:w-880 {
+    width: 55rem;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:mt-0 {
     margin-top: 0px;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
   }
 
   .lg\:w-3\/4 {
@@ -890,6 +937,10 @@ video {
 
   .lg\:w-96 {
     width: 24rem;
+  }
+
+  .lg\:w-880 {
+    width: 55rem;
   }
 
   .lg\:flex-row {
